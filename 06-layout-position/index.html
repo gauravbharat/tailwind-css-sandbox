@@ -8,29 +8,107 @@
     <title>TailwindCSS</title>
   </head>
   <body>
+    <h2 class="section-label">Positioning</h2>
     <!-- Positioning -->
+    <div class="relative w-1/2 h-12 bg-red-200">
+      <p>Parent Element</p>
+      <div class="absolute bottom-0 right-0 bg-red-500">Absolute Child</div>
+    </div>
 
+    <h2 class="section-label">Top left corner</h2>
     <!-- Top left corner -->
+    <div class="relative h-32 w-32 bg-yellow-100 border border-yellow-400 my-1">
+      <div class="absolute left-0 top-0 h-16 w-16 bg-yellow-300"></div>
+    </div>
 
+    <h2 class="section-label">Top right corner</h2>
     <!-- Top right corner -->
+    <div class="relative h-32 w-32 bg-yellow-100 border border-yellow-400 my-1">
+      <div class="absolute right-0 top-0 h-16 w-16 bg-yellow-300"></div>
+    </div>
 
+    <h2 class="section-label">Bottom left corner</h2>
     <!-- Bottom left corner -->
+    <div class="relative h-32 w-32 bg-yellow-100 border border-yellow-400 my-1">
+      <div class="absolute left-0 bottom-0 h-16 w-16 bg-yellow-300"></div>
+    </div>
 
+    <h2 class="section-label">Bottom right corner</h2>
     <!-- Bottom right corner -->
+    <div class="relative h-32 w-32 bg-yellow-100 border border-yellow-400 my-1">
+      <div class="absolute right-0 bottom-0 h-16 w-16 bg-yellow-300"></div>
+    </div>
 
+    <h2 class="section-label">Span top edge</h2>
     <!-- Span top edge -->
+    <div class="relative h-32 w-32 bg-yellow-100 border border-yellow-400 my-1">
+      <div class="absolute inset-x-0 top-0 h-16 bg-yellow-300"></div>
+    </div>
 
+    <h2 class="section-label">Span left edge</h2>
     <!-- Span left edge -->
+    <div class="relative h-32 w-32 bg-yellow-100 border border-yellow-400 my-1">
+      <div class="absolute inset-y-0 left-0 w-16 bg-yellow-300"></div>
+    </div>
 
+    <h2 class="section-label">Span right edge</h2>
     <!-- Span right edge -->
+    <div class="relative h-32 w-32 bg-yellow-100 border border-yellow-400 my-1">
+      <div class="absolute inset-y-0 right-0 w-16 bg-yellow-300"></div>
+    </div>
 
+    <h2 class="section-label">Span bottom edge</h2>
     <!-- Span bottom edge -->
+    <div class="relative h-32 w-32 bg-yellow-100 border border-yellow-400 my-1">
+      <div class="absolute inset-x-0 bottom-0 h-16 bg-yellow-300"></div>
+    </div>
 
+    <h2 class="section-label">Display Classes</h2>
     <!-- Display Classes -->
+    <div>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste explicabo
+      non at
+      <span class="inline text-red-600 font-bold">This is inline</span>
+      blanditiis enim, accusamus placeat excepturi rem. Nulla magni suscipit
+      nobis temporibus perferendis
+      <span class="inline-block text-red-600 font-bold"
+        >This is inline block</span
+      >
+      culpa, ab a quia, alias possimus minima!
+      <span class="block text-red-600 font-bold">This is block</span> Suscipit
+      illo doloremque, ab sed, doloribus odio minima sunt magni blanditiis
+      voluptatibus ad nihil facere. Officia quisquam sed,
+      <span class="hidden">This is hidden</span> aliquid placeat numquam saepe
+      provident dignissimos suscipit, non eveniet optio quidem.
+    </div>
 
+    <h2 class="section-label">Z-Index</h2>
     <!-- Z-Index -->
+    <div class="relative h-36">
+      <div class="absolute left-10 w-24 h-24 bg-blue-300 z-40">1</div>
+      <div class="absolute left-20 w-24 h-24 bg-blue-400">2</div>
+      <div class="absolute left-40 w-24 h-24 bg-blue-500 z-10">3</div>
+      <div class="absolute left-60 w-24 h-24 bg-blue-600 z-20">4</div>
+      <div class="absolute left-80 w-24 h-24 bg-blue-700 z-30">5</div>
+    </div>
 
+    <h2 class="section-label">Floats</h2>
     <!-- Floats -->
+    <div class="w-1/2">
+      <img
+        class="h-48 w-48 float-left m-4"
+        src="../assets/img/img1.jpg"
+        alt="img1"
+      />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
+        dolores explicabo? Perferendis vitae consequatur aspernatur veniam
+        laboriosam mollitia natus ex placeat dolores, quisquam quasi corporis
+        facilis quod delectus adipisci corrupti!
+      </p>
+    </div>
+
+    <script type="module" src="../bootstrap.js"></script>
   </body>
 </html>
 
