@@ -6,25 +6,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Typography</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Open+Sans:wght@300&family=Tapestry&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <!-- Font Family -->
+    <div class="mx-auto max-w-xl m-2 p-2 mb-6">
+      <h2 class="section-label">Font Family</h2>
+      <!-- Font Family -->
+      <div class="font-sans">Tailwind CSS theme font-sans</div>
+      <div class="font-serif">Tailwind CSS theme font-serif</div>
+      <div class="font-mono">Tailwind CSS theme font-mono</div>
 
-    <!-- Font Size -->
+      <h2 class="section-label">Font Size</h2>
+      <!-- Font Size -->
+      <div class="text-xs">Tailwind is awesome</div>
+      <div class="text-sm">Tailwind is awesome</div>
+      <div class="text-base">Tailwind is awesome</div>
+      <div class="text-lg">Tailwind is awesome</div>
+      <div class="text-xl">Tailwind is awesome</div>
+      <div class="text-2xl">Tailwind is awesome</div>
+      <div class="text-3xl xl:text-9xl">Tailwind is awesome</div>
 
-    <!-- Font Weight -->
+      <h2 class="section-label">Font Weight</h2>
+      <!-- Font Weight -->
+      <div class="font-extralight">Tailwind is awesome</div>
+      <div class="font-light">Tailwind is awesome</div>
+      <div class="font-normal">Tailwind is awesome</div>
+      <div class="font-medium">Tailwind is awesome</div>
+      <div class="font-bold">Tailwind is awesome</div>
+      <div class="font-semibold">Tailwind is awesome</div>
+      <div class="font-extrabold">Tailwind is awesome</div>
 
-    <!-- Letter Spacing -->
+      <h2 class="section-label">Letter Spacing</h2>
+      <!-- Letter Spacing -->
+      <div class="tracking-tight">Tailwind is awesome</div>
+      <div class="tracking-normal">Tailwind is awesome</div>
+      <div class="tracking-wide">Tailwind is awesome</div>
 
-    <!-- Text Alignment -->
+      <h2 class="section-label">Text Alignment</h2>
+      <!-- Text Alignment -->
+      <div class="text-left">Tailwind is awesome</div>
+      <div class="text-center">Tailwind is awesome</div>
+      <div class="text-right">Tailwind is awesome</div>
 
-    <!-- Text Decoration -->
+      <h2 class="section-label">Text Decoration</h2>
+      <!-- Text Decoration -->
+      <div class="underline decoration-4 decoration-blue-400">
+        Tailwind is awesome
+      </div>
 
-    <!-- Decoration Style -->
+      <h2 class="section-label">Decoration Style</h2>
+      <!-- Decoration Style -->
+      <div class="underline decoration-double">Tailwind is awesome</div>
+      <div class="underline decoration-dottle">Tailwind is awesome</div>
+      <div class="underline decoration-dashed">Tailwind is awesome</div>
+      <div class="underline decoration-wavy">Tailwind is awesome</div>
 
-    <!-- Decoration Offset -->
+      <h2 class="section-label">Decoration Offset</h2>
+      <!-- Decoration Offset -->
+      <div
+        class="underline decoration-2 decoration-blue-400 underline-offset-8"
+      >
+        Tailwind is awesome
+      </div>
 
-    <!-- Text Transform -->
+      <h2 class="section-label">Text Transform</h2>
+      <!-- Text Transform -->
+      <p class="normal-case">Tailwind is awesome</p>
+      <p class="uppercase">Tailwind is awesome</p>
+      <p class="lowercase">Tailwind is awesome</p>
+      <p class="capitalize">Tailwind is awesome</p>
+    </div>
+    <script>
+      tailwind.config = {
+        theme: {
+          fontFamily: {
+            sans: ["ui-sans-serif", "system-ui"],
+            serif: ["Tapestry", "Georgia"],
+            mono: ["ui-monospace", "SFMono-Regular"],
+          },
+        },
+      };
+    </script>
+    <script type="module" src="../bootstrap.js"></script>
   </body>
 </html>
 
