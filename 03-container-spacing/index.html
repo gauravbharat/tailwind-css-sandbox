@@ -9,7 +9,7 @@
   </head>
   <body>
     <!-- Container -->
-    <div>
+    <div class="container mx-auto">
       <article>
         <h3>Article One</h3>
         <p>
@@ -21,13 +21,49 @@
       </article>
 
       <!-- Margin -->
+      <div class="bg-slate-100 m-2">Margin example 1</div>
+      <div class="bg-slate-100 ml-4">Margin example 2</div>
+      <div class="bg-slate-100 mr-4">Margin example 3</div>
+      <div class="bg-slate-100 mt-4">Margin example 4</div>
+      <div class="bg-slate-100 mb-4">Margin example 5</div>
+      <div class="bg-slate-100 mt-[20px] mb-[10px]">
+        Margin example 6 - arbitrary value
+      </div>
 
       <!-- Padding -->
+      <div class="bg-slate-100 p-2 my-1">Padding example 1</div>
+      <div class="bg-slate-100 pl-4 my-1">Padding example 2</div>
+      <div class="bg-slate-100 pr-4 my-1">Padding example 3</div>
+      <div class="bg-slate-100 pt-4 my-1">Padding example 4</div>
+      <div class="bg-slate-100 pb-4 my-1">Padding example 5</div>
+      <div class="bg-slate-100 pt-[20px] pb-[10px] my-1">
+        Padding example 6 - arbitrary value
+      </div>
 
       <!-- Space Between X -->
+      <div class="flex my-10 space-x-4">
+        <div>space between x item 1</div>
+        <div>space between x item 2</div>
+        <div>space between x item 3</div>
+        <div>space between x item 4</div>
+        <div>space between x item 5</div>
+        <div>space between x item 6</div>
+        <div>space between x item 7</div>
+      </div>
 
       <!-- Space Between Y -->
+      <div class="flex flex-col my-10 space-y-8">
+        <div>space between y item 1</div>
+        <div>space between y item 2</div>
+        <div>space between y item 3</div>
+        <div>space between y item 4</div>
+        <div>space between y item 5</div>
+        <div>space between y item 6</div>
+        <div>space between y item 7</div>
+      </div>
     </div>
+
+    <script type="module" src="../bootstrap.js"></script>
   </body>
 </html>
 
