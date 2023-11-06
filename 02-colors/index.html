@@ -7,26 +7,97 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Colors</title>
   </head>
-  <body>
+  <body class="pt-6 pb-28">
     <!-- Default colors -->
     <!-- white, black, red, green, blue, orange, yellow, purple, lime, emerald, teal, cyan, indigo, violet, fuchsia, pink, rose, sky, gray, slate, zinc, neutral, stone, amber,  -->
 
-    <!-- Text Colors -->
+    <div class="mx-auto max-w-xl m-2 p-2 mb-6">
+      <h2 class="text-2xl font-medium font-medium text-slate-600">
+        Text colours
+      </h2>
+      <div class="h-1 bg-slate-100 my-1"></div>
+      <!-- Text Colors -->
+      <p class="text-black">Tailwind is awesome</p>
+      <p class="text-white">Tailwind is awesome</p>
 
-    <!-- Background Colors -->
+      <!-- Text colours with Shades -->
+      <p class="text-red-500">Tailwind is awesome</p>
+      <p class="text-green-500">Tailwind is awesome</p>
+      <p class="text-emerald-500">Tailwind is awesome</p>
+      <p class="text-zinc-300">Tailwind is awesome</p>
+      <p class="text-slate-800">Tailwind is awesome</p>
 
-    <!-- Text Underline -->
+      <h2 class="text-2xl font-medium mt-6 text-slate-600">
+        Background colours
+      </h2>
+      <div class="h-1 bg-slate-100 my-1"></div>
+      <!-- Background Colors -->
+      <p class="bg-slate-800 text-yellow-200">Tailwind is awesome</p>
+      <p class="bg-emerald-400">Tailwind is awesome</p>
+      <p class="bg-yellow-300">Tailwind is awesome</p>
+      <p class="bg-indigo-800 text-white">Tailwind is awesome</p>
 
-    <!-- Border Colors -->
+      <h2 class="text-2xl font-medium mt-6 text-slate-600">Text Underline</h2>
+      <div class="h-1 bg-slate-100 my-1"></div>
+      <!-- Text Underline -->
+      <p class="underline decoration-red-500">Tailwind is awesome</p>
+      <p class="underline decoration-emerald-600">Tailwind is awesome</p>
+      <p class="underline decoration-yellow-800">Tailwind is awesome</p>
 
-    <!-- Divide Colors -->
+      <h2 class="text-2xl font-medium mt-6 text-slate-600">Border colours</h2>
+      <div class="h-1 bg-slate-100 my-1"></div>
+      <!-- Border Colors -->
+      <div class="h-5 border border-blue-400 mb-1"></div>
+      <div class="h-5 border border-green-400 mb-1"></div>
+      <div class="h-5 border border-orange-400 mb-1"></div>
 
-    <!-- Outline Colors -->
+      <h2 class="text-2xl font-medium mt-6 text-slate-600">Divide colours</h2>
+      <div class="h-1 bg-slate-100 my-1"></div>
+      <!-- Divide Colors -->
+      <div class="divide-y divide-blue-300">
+        <div>Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+        <div>Item 4</div>
+        <div>Item 5</div>
+      </div>
 
-    <!-- Box Shadow Colors (Opacity defaults to 100, but you can set it)-->
+      <h2 class="text-2xl font-medium mt-6 text-slate-600">Outline colours</h2>
+      <div class="h-1 bg-slate-100 my-1"></div>
+      <!-- Outline Colors -->
+      <button class="mr-2 outline outline-blue-200">OK</button>
+      <button class="outline outline-red-500">Cancel</button>
 
-    <!-- Accent Colors -->
+      <h2 class="text-2xl font-medium mt-6 text-slate-600">
+        Box Shadow colours
+      </h2>
+      <div class="h-1 bg-slate-100 my-1"></div>
+      <!-- Box Shadow Colors (Opacity defaults to 100, but you can set it)-->
+      <button class="mr-2 shadow-lg bg-cyan-500 text-white shadow-cyan-500">
+        Subscribe
+      </button>
+      <button
+        class="shadow-lg bg-cyan-500 hover:shadow-purple-500/60 hover:text-white"
+      >
+        Subscribe
+      </button>
 
-    <!-- Arbitrary Colors -->
+      <h2 class="text-2xl font-medium mt-6 text-slate-600">Accent colours</h2>
+      <div class="h-1 bg-slate-100 my-1"></div>
+      <!-- Accent Colors -->
+      <input type="checkbox" class="accent-purple-500" checked />
+      <input type="checkbox" class="accent-cyan-500" checked />
+
+      <h2 class="text-2xl font-medium mt-6 text-slate-600">
+        Arbitrary colours
+      </h2>
+      <div class="h-1 bg-slate-100 my-1"></div>
+      <!-- Arbitrary Colors -->
+      <div class="bg-[#ff3300]">&nbsp;</div>
+      <div class="bg-[rgb(255,255,255)]">&nbsp;</div>
+      <div class="bg-[green]">&nbsp;</div>
+    </div>
+
+    <script type="module" src="../bootstrap.js"></script>
   </body>
 </html>
