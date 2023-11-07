@@ -8,7 +8,8 @@ for (let i = 0; i < sectionLabels.length; i++) {
     "font-medium",
     "text-slate-600",
     "bg-slate-100",
-    "mb-1"
+    "mb-1",
+    "pl-1"
   );
 
   if (i > 0) {
