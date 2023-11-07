@@ -5,7 +5,7 @@ const sectionLabels = document.getElementsByClassName("section-label");
 for (let i = 0; i < sectionLabels.length; i++) {
   sectionLabels[i].classList.add(
     "text-2xl",
-    "font-medium",
+    "font-light",
     "text-slate-600",
     "bg-slate-100",
     "mb-1",
