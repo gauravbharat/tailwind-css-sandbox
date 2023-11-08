@@ -8,11 +8,53 @@
     <title>Flex</title>
   </head>
   <body>
+    <h2 class="section-label">Flex and alignment</h2>
     <!-- Flex and alignment -->
 
+    <div class="flex items-center justify-between w-full bg-gray-100">
+      <div class="p-10 border border-blue-300 bg-blue-100">01</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">02</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">03</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">04</div>
+    </div>
+
+    <h2 class="section-label">Flex Column, Gap and Order</h2>
     <!-- Flex Column, Gap and Order -->
 
+    <div
+      class="flex flex-col items-center justify-between w-full bg-gray-100 gap-4"
+    >
+      <div class="order-3 p-10 border border-blue-300 bg-blue-100">01</div>
+      <div class="order-2 p-10 border border-blue-300 bg-blue-100">02</div>
+      <div class="order-4 p-10 border border-blue-300 bg-blue-100">03</div>
+      <div class="order-1 p-10 border border-blue-300 bg-blue-100">04</div>
+    </div>
+
+    <h2 class="section-label">Grow and shrink</h2>
     <!-- Grow and shrink -->
+    <div class="flex w-full bg-gray-100">
+      <div class="flex-initial w-64 p-10 border border-blue-300 bg-blue-100">
+        01
+      </div>
+      <div class="flex-none w-64 p-10 border border-blue-300 bg-blue-100">
+        02
+      </div>
+      <div class="flex-auto w-64 p-10 border border-blue-300 bg-blue-100">
+        03
+      </div>
+      <div class="flex-1 w-64 p-10 border border-blue-300 bg-blue-100">04</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">05</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">06</div>
+      <div class="p-10 border border-blue-300 bg-blue-100">07</div>
+    </div>
+
+    <div class="flex text-center">
+      <div class="flex-1 bg-blue-100">Hellow</div>
+      <div class="flex-1 bg-blue-100">Hellow</div>
+      <div class="flex-1 bg-blue-100">Hellow</div>
+    </div>
+
+    <script type="module" src="../bootstrap.js"></script>
   </body>
 </html>
 
@@ -26,11 +68,11 @@
     -->
 
 <!-- 
-      items-start	align-items: flex-start;
-      items-end	align-items: flex-end;
-      items-center	align-items: center;
+      items-start	    align-items: flex-start;
+      items-end	      align-items: flex-end;
+      items-center	  align-items: center;
       items-baseline	align-items: baseline;
-      items-stretch	align-items: stretch;
+      items-stretch	  align-items: stretch;
      -->
 
 <!-- Flex Direction
